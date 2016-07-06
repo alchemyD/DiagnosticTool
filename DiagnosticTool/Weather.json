@@ -1,0 +1,42 @@
+{
+    "city":{
+        "id":5074472,
+        "name":"Omaha",
+        "coord":{
+            "lon":-95.93779,
+            "lat":41.25861
+        },
+        "country":"US",
+        "population":0
+    },
+    "cod":"200",
+    "message":0.0081,
+    "cnt":1,
+    "list":[
+            {
+            "dt":1464976800,
+            "temp":{
+            "day":32.41,
+            "min":18.61,
+            "max":34.29,
+            "night":18.61,
+            "eve":29.39,
+            "morn":24.32
+            },
+            "pressure":985.34,
+            "humidity":40,
+            "weather":[
+                       {
+                       "id":501,
+                       "main":"Rain",
+                       "description":"moderate rain",
+                       "icon":"10d"
+                       }
+                       ],
+            "speed":6.81,
+            "deg":189,
+            "clouds":36,
+            "rain":3.92
+            }
+            ]
+}

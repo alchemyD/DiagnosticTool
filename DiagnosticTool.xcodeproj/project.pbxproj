@@ -14,6 +14,11 @@
 		4FC2FE0D1D01C622007F2D7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC2FE0B1D01C622007F2D7D /* LaunchScreen.storyboard */; };
 		4FC2FE181D01C622007F2D7D /* DiagnosticToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC2FE171D01C622007F2D7D /* DiagnosticToolTests.swift */; };
 		4FC2FE231D01C622007F2D7D /* DiagnosticToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC2FE221D01C622007F2D7D /* DiagnosticToolUITests.swift */; };
+		4FC2FE311D01D056007F2D7D /* SalesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FC2FE301D01D056007F2D7D /* SalesData.json */; settings = {ASSET_TAGS = (); }; };
+		4FC2FE331D01D092007F2D7D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC2FE321D01D092007F2D7D /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
+		4FC2FE371D01D76F007F2D7D /* Weather.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FC2FE361D01D76F007F2D7D /* Weather.json */; settings = {ASSET_TAGS = (); }; };
+		4FC2FE391D01EA1C007F2D7D /* SalesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC2FE381D01EA1C007F2D7D /* SalesTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		4FC2FF9E1D02153B007F2D7D /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FC2FF9D1D02153B007F2D7D /* arrow.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +38,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4FC2FF981D02066D007F2D7D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		4FC2FDFF1D01C622007F2D7D /* DiagnosticTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiagnosticTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC2FE021D01C622007F2D7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +65,11 @@
 		4FC2FE1E1D01C622007F2D7D /* DiagnosticToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiagnosticToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC2FE221D01C622007F2D7D /* DiagnosticToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticToolUITests.swift; sourceTree = "<group>"; };
 		4FC2FE241D01C622007F2D7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FC2FE301D01D056007F2D7D /* SalesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SalesData.json; sourceTree = "<group>"; };
+		4FC2FE321D01D092007F2D7D /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		4FC2FE361D01D76F007F2D7D /* Weather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Weather.json; sourceTree = "<group>"; };
+		4FC2FE381D01EA1C007F2D7D /* SalesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalesTableViewController.swift; sourceTree = "<group>"; };
+		4FC2FF9D1D02153B007F2D7D /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = ../../../../arrow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +120,14 @@
 		4FC2FE011D01C622007F2D7D /* DiagnosticTool */ = {
 			isa = PBXGroup;
 			children = (
+				4FC2FE381D01EA1C007F2D7D /* SalesTableViewController.swift */,
+				4FC2FE321D01D092007F2D7D /* SwiftyJSON.swift */,
 				4FC2FE021D01C622007F2D7D /* AppDelegate.swift */,
 				4FC2FE041D01C622007F2D7D /* ViewController.swift */,
 				4FC2FE061D01C622007F2D7D /* Main.storyboard */,
+				4FC2FE301D01D056007F2D7D /* SalesData.json */,
+				4FC2FE361D01D76F007F2D7D /* Weather.json */,
+				4FC2FF9D1D02153B007F2D7D /* arrow.png */,
 				4FC2FE091D01C622007F2D7D /* Assets.xcassets */,
 				4FC2FE0B1D01C622007F2D7D /* LaunchScreen.storyboard */,
 				4FC2FE0E1D01C622007F2D7D /* Info.plist */,
@@ -135,6 +163,7 @@
 				4FC2FDFB1D01C622007F2D7D /* Sources */,
 				4FC2FDFC1D01C622007F2D7D /* Frameworks */,
 				4FC2FDFD1D01C622007F2D7D /* Resources */,
+				4FC2FF981D02066D007F2D7D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -228,9 +257,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FC2FE311D01D056007F2D7D /* SalesData.json in Resources */,
+				4FC2FF9E1D02153B007F2D7D /* arrow.png in Resources */,
 				4FC2FE0D1D01C622007F2D7D /* LaunchScreen.storyboard in Resources */,
 				4FC2FE0A1D01C622007F2D7D /* Assets.xcassets in Resources */,
 				4FC2FE081D01C622007F2D7D /* Main.storyboard in Resources */,
+				4FC2FE371D01D76F007F2D7D /* Weather.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FC2FE391D01EA1C007F2D7D /* SalesTableViewController.swift in Sources */,
+				4FC2FE331D01D092007F2D7D /* SwiftyJSON.swift in Sources */,
 				4FC2FE051D01C622007F2D7D /* ViewController.swift in Sources */,
 				4FC2FE031D01C622007F2D7D /* AppDelegate.swift in Sources */,
 			);
@@ -396,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = DiagnosticTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danieldorner.DiagnosticTool;
@@ -407,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = DiagnosticTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danieldorner.DiagnosticTool;

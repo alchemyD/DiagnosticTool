@@ -1,0 +1,24 @@
+{
+    "list":{
+        "meta":{
+            "type":"resource-list",
+            "start":0,
+            "count":1
+        },
+        "resources":[
+                     {
+                     "resource":{
+                     "classname":"Quote",
+                     "fields":{
+                     "chg_percent":"13",
+                     "todays_sales":"230,000.00",
+                     "yesterdays_sales":"123,000.00",
+                     "remaining_inventory":"350,000.00",
+                     "year_high":"280,000",
+                     "year_low":"89,470"
+                     }
+                    }
+                }
+                ]
+    }
+}
